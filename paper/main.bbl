@@ -1,0 +1,371 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{22}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Bai et~al\mbox{.}(2020)]%
+        {bai2020products}
+\bibfield{author}{\bibinfo{person}{Yalong Bai}, \bibinfo{person}{Yuxiang Chen},
+  \bibinfo{person}{Wei Yu}, \bibinfo{person}{Linfang Wang}, {and}
+  \bibinfo{person}{Wei Zhang}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{Products-10K}: A Large-scale Product Recognition
+  Dataset}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2008.10545}}
+  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2008.10545}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Preprint; not counted toward peer-reviewed minimum}.
+
+
+\bibitem[Cubuk et~al\mbox{.}(2020)]%
+        {cubuk2020randaugment}
+\bibfield{author}{\bibinfo{person}{Ekin~D. Cubuk}, \bibinfo{person}{Barret
+  Zoph}, \bibinfo{person}{Jonathon Shlens}, {and} \bibinfo{person}{Quoc~V.
+  Le}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{RandAugment}: Practical Automated Data
+  Augmentation with a Reduced Search Space}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{33}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper_files/paper/2020/hash/d85b63ef0ccb114d0a3bb7b7d808028f-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Daultani et~al\mbox{.}(2024)]%
+        {daultani2024degraded}
+\bibfield{author}{\bibinfo{person}{Dinesh Daultani}, \bibinfo{person}{Masayuki
+  Tanaka}, \bibinfo{person}{Masatoshi Okutomi}, {and} \bibinfo{person}{Kazuki
+  Endo}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Degraded Image Classification using Knowledge
+  Distillation and Robust Data Augmentations}.
+\newblock \bibinfo{journal}{\emph{IEICE Transactions on Information and
+  Systems}} \bibinfo{volume}{E107.D}, \bibinfo{number}{12}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{1517--1528}.
+\newblock
+\href{https://doi.org/10.1587/transinf.2024EDP7016}{doi:\nolinkurl{10.1587/transinf.2024EDP7016}}
+
+
+\bibitem[{D\"unkel} et~al\mbox{.}(2025)]%
+        {dunkel2025cns}
+\bibfield{author}{\bibinfo{person}{Olaf {D\"unkel}}, \bibinfo{person}{Artur
+  Jesslen}, \bibinfo{person}{Jiahao Xie}, \bibinfo{person}{Christian Theobalt},
+  \bibinfo{person}{Christian Rupprecht}, {and} \bibinfo{person}{Adam
+  Kortylewski}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{CNS-Bench}: Benchmarking Image Classifier
+  Robustness Under Continuous Nuisance Shifts}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the IEEE/CVF International
+  Conference on Computer Vision}}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/ICCV2025/papers/Dunkel_CNS-Bench_Benchmarking_Image_Classifier_Robustness_Under_Continuous_Nuisance_Shifts_ICCV_2025_paper.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hendrycks and Dietterich(2019)]%
+        {hendrycks2019benchmarking}
+\bibfield{author}{\bibinfo{person}{Dan Hendrycks} {and} \bibinfo{person}{Thomas
+  Dietterich}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Benchmarking Neural Network Robustness to Common
+  Corruptions and Perturbations}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/1903.12261}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hendrycks et~al\mbox{.}(2020)]%
+        {hendrycks2020augmix}
+\bibfield{author}{\bibinfo{person}{Dan Hendrycks}, \bibinfo{person}{Norman Mu},
+  \bibinfo{person}{Ekin~D. Cubuk}, \bibinfo{person}{Barret Zoph},
+  \bibinfo{person}{Justin Gilmer}, {and} \bibinfo{person}{Balaji
+  Lakshminarayanan}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{AugMix}: A Simple Data Processing Method to
+  Improve Robustness and Uncertainty}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=S1gmrxHFvB}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hori et~al\mbox{.}(2026)]%
+        {hori2026hierarchical}
+\bibfield{author}{\bibinfo{person}{Mohammad Hori}, \bibinfo{person}{Bernd
+  Noche}, {and} \bibinfo{person}{Abbas Horri}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Hierarchical Product Recognition Under Partial
+  Supervision for Retail Environments}.
+\newblock \bibinfo{journal}{\emph{Logistics}} \bibinfo{volume}{10},
+  \bibinfo{number}{7} (\bibinfo{year}{2026}), \bibinfo{pages}{149}.
+\newblock
+\href{https://doi.org/10.3390/logistics10070149}{doi:\nolinkurl{10.3390/logistics10070149}}
+
+
+\bibitem[Karishini et~al\mbox{.}(2026)]%
+        {karishini2026low}
+\bibfield{author}{\bibinfo{person}{S. Karishini},
+  \bibinfo{person}{Shakti~Prasad Sethi}, \bibinfo{person}{J.~S. Gowri},
+  \bibinfo{person}{Akshaya Vasudevan}, \bibinfo{person}{S. Manimaran}, {and}
+  \bibinfo{person}{Rayappa David~Amar Raj}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Robust Low-Light Object Detection and
+  Classification via Hybrid Feature Fusion and Synthetic Data Augmentation}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}} (\bibinfo{year}{2026}).
+\newblock
+\href{https://doi.org/10.1038/s41598-026-78730-9}{doi:\nolinkurl{10.1038/s41598-026-78730-9}}
+\newblock
+\shownote{Publisher-hosted article-in-press PDF consulted on 24 November 2026}.
+
+
+\bibitem[Lamm and Keuper(2025)]%
+        {lamm2025rag}
+\bibfield{author}{\bibinfo{person}{Bianca Lamm} {and} \bibinfo{person}{Janis
+  Keuper}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{A Visual RAG Pipeline for Few-Shot Fine-Grained
+  Product Classification}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops}}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/CVPR2025W/FGVC/papers/Lamm_A_Visual_RAG_Pipeline_for_Few-Shot_Fine-Grained_Product_Classification_CVPRW_2025_paper.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Li(2026)]%
+        {li2026scene}
+\bibfield{author}{\bibinfo{person}{Wenjun Li}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Scene-Aware Contrastive Learning with Multi-Scale
+  Domain-Invariant Feature Alignment for Robust Visual Recognition Under
+  Complex Scenes}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}}  \bibinfo{volume}{16}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{26637}.
+\newblock
+\href{https://doi.org/10.1038/s41598-026-57271-1}{doi:\nolinkurl{10.1038/s41598-026-57271-1}}
+
+
+\bibitem[Mintun et~al\mbox{.}(2021)]%
+        {mintun2021interaction}
+\bibfield{author}{\bibinfo{person}{Eric Mintun}, \bibinfo{person}{Alexander
+  Kirillov}, {and} \bibinfo{person}{Saining Xie}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{On Interaction Between Augmentations and
+  Corruptions in Natural Corruption Robustness}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}.
+\newblock
+\urldef\tempurl%
+\url{https://papers.nips.cc/paper_files/paper/2021/hash/1d49780520898fe37f0cd6b41c5311bf-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Pilligua et~al\mbox{.}(2026)]%
+        {pilligua2026mill}
+\bibfield{author}{\bibinfo{person}{Maria Pilligua}, \bibinfo{person}{David
+  Serrano-Lozano}, \bibinfo{person}{Pai Peng}, \bibinfo{person}{Ramon
+  Baldrich}, \bibinfo{person}{Michael~S. Brown}, {and} \bibinfo{person}{Javier
+  Vazquez-Corral}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Evaluating Low-Light Image Enhancement Across
+  Multiple Intensity Levels}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition Findings}}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/CVPR2026F/html/Pilligua_Evaluating_Low-Light_Image_Enhancement_Across_Multiple_Intensity_Levels_CVPRF_2026_paper.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sah et~al\mbox{.}(2026)]%
+        {sah2026grocer}
+\bibfield{author}{\bibinfo{person}{Mayank Sah}, \bibinfo{person}{Jimson
+  Mathew}, {and} \bibinfo{person}{P. Dayananda}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{A Real-World Framework for Automated Product
+  Recognition and Catalog Generation: Dataset, Model, and Analysis}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}}  \bibinfo{volume}{16}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{14834}.
+\newblock
+\href{https://doi.org/10.1038/s41598-026-42266-9}{doi:\nolinkurl{10.1038/s41598-026-42266-9}}
+
+
+\bibitem[Shen et~al\mbox{.}(2025)]%
+        {shen2025vcr}
+\bibfield{author}{\bibinfo{person}{Huakun Shen},
+  \bibinfo{person}{Boyue~Caroline Hu}, \bibinfo{person}{Krzysztof Czarnecki},
+  \bibinfo{person}{Lina Marsso}, {and} \bibinfo{person}{Marsha Chechik}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Assessing Visually-Continuous Corruption Robustness
+  of Neural Networks Relative to Human Performance}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the IEEE/CVF Winter Conference on
+  Applications of Computer Vision}}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/WACV2025/papers/Shen_Assessing_Visually-Continuous_Corruption_Robustness_of_Neural_Networks_Relative_to_Human_WACV_2025_paper.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Siedel et~al\mbox{.}(2026)]%
+        {siedel2026stylized}
+\bibfield{author}{\bibinfo{person}{Georg Siedel}, \bibinfo{person}{Rojan
+  Regmi}, \bibinfo{person}{Abhirami Anand}, \bibinfo{person}{Weijia Shao},
+  \bibinfo{person}{Silvia Vock}, {and} \bibinfo{person}{Andrey Morozov}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Stylized Synthetic Augmentation Further Improves
+  Corruption Robustness}. In \bibinfo{booktitle}{\emph{Proceedings of the 21st
+  International Conference on Computer Vision Theory and Applications}},
+  Vol.~\bibinfo{volume}{2}. \bibinfo{pages}{31--42}.
+\newblock
+\href{https://doi.org/10.5220/0014251600004084}{doi:\nolinkurl{10.5220/0014251600004084}}
+
+
+\bibitem[Tan and Le(2019)]%
+        {tan2019efficientnet}
+\bibfield{author}{\bibinfo{person}{Mingxing Tan} {and} \bibinfo{person}{Quoc~V.
+  Le}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{EfficientNet}: Rethinking Model Scaling for
+  Convolutional Neural Networks}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 36th International Conference on Machine Learning}}.
+  \bibinfo{pages}{6105--6114}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v97/tan19a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{\"U}nal and Baz(2026)]%
+        {unal2026synthetic}
+\bibfield{author}{\bibinfo{person}{Alperen {\"U}nal} {and}
+  \bibinfo{person}{{\.{I}}pek Baz}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Synthetic Data Augmentation for Fine-Grained Retail
+  Product Classification under Low-Data Regimes}.
+\newblock \bibinfo{journal}{\emph{Sakarya University Journal of Computer and
+  Information Sciences}} \bibinfo{volume}{9}, \bibinfo{number}{3}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{806--815}.
+\newblock
+\urldef\tempurl%
+\url{https://dergipark.org.tr/en/pub/saucis/article/1881274}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Publisher landing page consulted; DOI not independently validated}.
+
+
+\bibitem[Yang et~al\mbox{.}(2026a)]%
+        {yang2026retail}
+\bibfield{author}{\bibinfo{person}{Moushiqi Yang}, \bibinfo{person}{Junjie
+  Cai}, \bibinfo{person}{Yuanyuan Yang}, \bibinfo{person}{Jian Chen}, {and}
+  \bibinfo{person}{Kai Xie}.} \bibinfo{year}{2026}\natexlab{a}.
+\newblock \showarticletitle{Real-Time Small Retail Product Detection in
+  Low-Light Intelligent Cabinets Under Complex Backgrounds}.
+\newblock \bibinfo{journal}{\emph{Sensors}} \bibinfo{volume}{26},
+  \bibinfo{number}{10} (\bibinfo{year}{2026}), \bibinfo{pages}{3264}.
+\newblock
+\href{https://doi.org/10.3390/s26103264}{doi:\nolinkurl{10.3390/s26103264}}
+
+
+\bibitem[Yang et~al\mbox{.}(2026b)]%
+        {yang2026repro}
+\bibfield{author}{\bibinfo{person}{Shuaikang Yang}, \bibinfo{person}{Zongzheng
+  Jiao}, {and} \bibinfo{person}{MinPo Jung}.} \bibinfo{year}{2026}\natexlab{b}.
+\newblock \showarticletitle{Robustness and Reproducibility of Hard Augmentation
+  and Prediction Consistency for Industrial Surface-Defect Classification: A
+  Repeated-Split, Multi-Seed, Multi-Dataset Study}.
+\newblock \bibinfo{journal}{\emph{Technologies}} \bibinfo{volume}{14},
+  \bibinfo{number}{11} (\bibinfo{year}{2026}), \bibinfo{pages}{767}.
+\newblock
+\href{https://doi.org/10.3390/technologies14110767}{doi:\nolinkurl{10.3390/technologies14110767}}
+
+
+\bibitem[Yang et~al\mbox{.}(2026c)]%
+        {yang2026beyond}
+\bibfield{author}{\bibinfo{person}{William Yang}, \bibinfo{person}{Xindi Wu},
+  \bibinfo{person}{Zhiwei Deng}, \bibinfo{person}{Esin Tureci}, {and}
+  \bibinfo{person}{Olga Russakovsky}.} \bibinfo{year}{2026}\natexlab{c}.
+\newblock \showarticletitle{Beyond Objects: Contextual Synthetic Data
+  Generation for Fine-Grained Classification}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the IEEE/CVF Conference on Computer
+  Vision and Pattern Recognition}}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Beyond_Objects_Contextual_Synthetic_Data_Generation_for_Fine-Grained_Classification_CVPR_2026_paper.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zheng et~al\mbox{.}(2025)]%
+        {zheng2025adaptive}
+\bibfield{author}{\bibinfo{person}{Laura Zheng}, \bibinfo{person}{Wenjie Wei},
+  \bibinfo{person}{Tony Wu}, \bibinfo{person}{Jacob Clements},
+  \bibinfo{person}{Shreelekha Revankar}, \bibinfo{person}{Andre Harrison},
+  \bibinfo{person}{Yu Shen}, {and} \bibinfo{person}{Ming~C. Lin}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Adaptive Sensitivity Analysis for Robust
+  Augmentation Against Natural Corruptions in Image Segmentation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 42nd International Conference on
+  Machine Learning}}, Vol.~\bibinfo{volume}{267}. \bibinfo{publisher}{PMLR}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v267/zheng25n.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhong et~al\mbox{.}(2020)]%
+        {zhong2020random}
+\bibfield{author}{\bibinfo{person}{Zhun Zhong}, \bibinfo{person}{Liang Zheng},
+  \bibinfo{person}{Guoliang Kang}, \bibinfo{person}{Shaozi Li}, {and}
+  \bibinfo{person}{Yi Yang}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Random Erasing Data Augmentation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}}, Vol.~\bibinfo{volume}{34}. \bibinfo{pages}{13001--13008}.
+\newblock
+\href{https://doi.org/10.1609/aaai.v34i07.7000}{doi:\nolinkurl{10.1609/aaai.v34i07.7000}}
+
+
+\end{thebibliography}
