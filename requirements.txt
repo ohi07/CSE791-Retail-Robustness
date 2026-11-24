@@ -1,0 +1,11 @@
+# Existing working environment from recorded experiments:
+# Python 3.13.0; PyTorch 2.11.0+cu128; torchvision 0.26.0+cu128.
+# On Windows, install PyTorch from https://pytorch.org/get-started/locally/
+# using a CUDA wheel compatible with your GPU driver.
+# Other dependencies:
+numpy
+pillow
+pandas
+matplotlib
+datasets
+scikit-learn
