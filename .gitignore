@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.env.*
+
+# Private/raw data and extracted images
+data/
+datasets/
+local_pilot/
+local_pilot_clean/
+review_previews/
+review_beauty/
+samples/
+*.parquet
+*.arrow
+*.zip
+
+# Trained model weights / binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+
+# Local Hugging Face cache
+.cache/
+huggingface/
+
+# Temporary outputs
+*.tmp
+.DS_Store
+Thumbs.db
