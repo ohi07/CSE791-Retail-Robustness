@@ -1,0 +1,91 @@
+{
+  "date_utc": "2026-11-24T13:38:57.729782+00:00",
+  "source": "nyris/products10k-v1",
+  "original_dataset": "local_pilot",
+  "source_audit_preserved": "local_pilot_clean/source_audit.json",
+  "cleaning_policy": "Conservative: exclude both labels 8227,8631; keep original test in any same-hash conflict; drop other exact duplicates",
+  "excluded_skus": [
+    "8227",
+    "8631"
+  ],
+  "skus": [
+    "2885",
+    "2929",
+    "2937",
+    "7378",
+    "7488",
+    "7592",
+    "7964",
+    "8424",
+    "8627"
+  ],
+  "split_counts": {
+    "test": 54,
+    "train": 427,
+    "val": 105
+  },
+  "class_split_counts": {
+    "2885": {
+      "test": 6,
+      "train": 38,
+      "val": 9
+    },
+    "2929": {
+      "test": 6,
+      "train": 47,
+      "val": 12
+    },
+    "2937": {
+      "test": 6,
+      "train": 37,
+      "val": 9
+    },
+    "7378": {
+      "test": 6,
+      "train": 48,
+      "val": 12
+    },
+    "7488": {
+      "test": 6,
+      "train": 61,
+      "val": 15
+    },
+    "7592": {
+      "test": 6,
+      "train": 64,
+      "val": 16
+    },
+    "7964": {
+      "test": 6,
+      "train": 44,
+      "val": 11
+    },
+    "8424": {
+      "test": 6,
+      "train": 45,
+      "val": 11
+    },
+    "8627": {
+      "test": 6,
+      "train": 43,
+      "val": 10
+    }
+  },
+  "source_rows": 734,
+  "retained_rows": 586,
+  "excluded_rows": 148,
+  "actual_saved_jpeg_pixel_hashes_recomputed": true,
+  "pixel_identical_duplicate_groups": 0,
+  "missing_splits": false,
+  "official_test_isolation_violated": false,
+  "BLOCKS_TRAINING": false,
+  "limitations": [
+    "Exact decoded-pixel duplicates only; near duplicates and capture-session leakage were not audited.",
+    "Only nine pilot SKU classes after conservative label-conflict exclusion.",
+    "Mixed product categories, not packaged groceries; change study claim accordingly.",
+    "Only six test images per SKU; report uncertainty and avoid broad generalization.",
+    "SKU labels and visual identity still require independent human review.",
+    "Training and test evaluation have not yet occurred."
+  ],
+  "training_completed": false
+}

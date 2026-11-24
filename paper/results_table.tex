@@ -1,0 +1,17 @@
+% Source: Group 09 results.zip; validation accuracy mean and sample SD across seeds 2026, 2027, 2028.
+% Table is preliminary; validation set also used for checkpoint selection.
+\begin{table}[t]
+\centering
+\caption{Validation accuracy (\%) across three training seeds; results on 105 validation images per seed.}
+\label{tab:pilot_robustness}
+\begin{tabular}{lccc}
+\toprule
+Condition & Basic & Generic & Targeted \\
+\midrule
+Clean & 96.19 $\pm$ 0.95 & 96.83 $\pm$ 0.55 & 95.87 $\pm$ 0.55 \\
+Severe blur & 65.08 $\pm$ 4.50 & 71.75 $\pm$ 4.89 & 83.81 $\pm$ 3.30 \\
+Severe low light & 89.52 $\pm$ 0.95 & 93.02 $\pm$ 1.10 & 95.56 $\pm$ 1.98 \\
+Severe occlusion & 79.37 $\pm$ 2.75 & 83.81 $\pm$ 2.52 & 83.49 $\pm$ 4.29 \\
+\bottomrule
+\end{tabular}
+\end{table}

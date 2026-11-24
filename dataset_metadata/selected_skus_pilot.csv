@@ -1,0 +1,12 @@
+sku,train_count,test_count,product_family,reviewer_name,review_status,notes
+7964,55,6,Cosmetics and skincare,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+8227,74,6,Cosmetics and skincare,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+8424,56,6,Cosmetics and skincare,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+8627,54,6,Cosmetics and skincare,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+8631,60,6,Cosmetics and skincare,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+7378,60,6,Necklaces and pendants,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+7488,76,6,Necklaces and pendants,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+7592,81,6,Necklaces and pendants,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+2885,47,6,Handbags,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+2929,59,6,Handbags,,provisional,Training images visually reviewed; final label/near-duplicate audit pending
+2937,46,6,Handbags,,provisional,Training images visually reviewed; final label/near-duplicate audit pending

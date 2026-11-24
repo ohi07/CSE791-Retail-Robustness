@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-24T13:51:00.260576+00:00",
+  "policy": "basic",
+  "epochs": 8,
+  "batch_size": 16,
+  "seed": 2026,
+  "lr": 0.0002,
+  "dataset": "local_pilot_clean",
+  "audit_split_counts": {
+    "test": 54,
+    "train": 427,
+    "val": 105
+  },
+  "classes": [
+    "2885",
+    "2929",
+    "2937",
+    "7378",
+    "7488",
+    "7592",
+    "7964",
+    "8424",
+    "8627"
+  ],
+  "pretrained": true,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "python": "3.13.0",
+  "final_test_requested": false
+}

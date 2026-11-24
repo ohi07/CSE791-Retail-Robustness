@@ -1,0 +1,82 @@
+[
+  {
+    "split": "val",
+    "condition": "clean",
+    "severity": 0,
+    "accuracy": 0.961905,
+    "macro_f1": 0.964054,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "blur",
+    "severity": 1,
+    "accuracy": 0.952381,
+    "macro_f1": 0.959318,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "blur",
+    "severity": 2,
+    "accuracy": 0.771429,
+    "macro_f1": 0.775566,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "blur",
+    "severity": 3,
+    "accuracy": 0.685714,
+    "macro_f1": 0.687556,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "low_light",
+    "severity": 1,
+    "accuracy": 0.980952,
+    "macro_f1": 0.983333,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "low_light",
+    "severity": 2,
+    "accuracy": 0.971429,
+    "macro_f1": 0.972654,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "low_light",
+    "severity": 3,
+    "accuracy": 0.904762,
+    "macro_f1": 0.910524,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "occlusion",
+    "severity": 1,
+    "accuracy": 0.933333,
+    "macro_f1": 0.93768,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "occlusion",
+    "severity": 2,
+    "accuracy": 0.885714,
+    "macro_f1": 0.891189,
+    "n": 105
+  },
+  {
+    "split": "val",
+    "condition": "occlusion",
+    "severity": 3,
+    "accuracy": 0.809524,
+    "macro_f1": 0.828503,
+    "n": 105
+  }
+]
